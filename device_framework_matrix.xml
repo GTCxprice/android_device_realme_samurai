@@ -133,6 +133,15 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>vendor.lineage.biometrics.fingerprint.inscreen</name>
+        <name>vendor.dolby.hardware.dms</name>
+        <version>2.0</version>
+        <interface>
+            <name>IDms</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.lineage.biometrics.fingerprint.inscreen</name>
         <version>1.0</version>
         <interface>
             <name>IFingerprintInscreen</name>

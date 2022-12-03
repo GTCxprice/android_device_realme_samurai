@@ -3,3 +3,15 @@ type hal_cryptoeng_hwservice, hwservice_manager_type;
 type hal_nxpnfc_hwservice, hwservice_manager_type;
 type hal_orms_hwservice, hwservice_manager_type;
 type halService_orms_hwservice, hwservice_manager_type;
+type hal_camerapostproc_xiaomi_hwservice, hwservice_manager_type;
+
+type hal_dms_hwservice, hwservice_manager_type;
+
+type hal_micharge_hwservice, hwservice_manager_type;
+
+type hal_misys_hwservice, hwservice_manager_type;
+
+type hal_mlipay_hwservice, hwservice_manager_type;
+
+type hal_motor_hwservice, hwservice_manager_type;
+
