@@ -128,15 +128,14 @@
         <stream type="alarm">
         </stream>
      <!-- #endif VENDOR_EDIT-->
-        </stream>
         <stream type="voice_call">
         </stream>
     <!-- #ifndef VENDOR_EDIT-->
-            <stream type="notification">
-        </stream>
+        <stream type="notification">
+	</stream>
      <!-- #endif VENDOR_EDIT-->
         <stream type="notification">
-        </stream>
+	</stream>
     </postprocess>
     <preprocess>
         <stream type="voice_communication">

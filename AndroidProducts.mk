@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_samurai.mk
+    $(LOCAL_DIR)/derp_samurai.mk
+
+COMMON_LUNCH_CHOICES := \
+    derp_samurai-user \
+    derp_samurai-userdebug \
+    derp_samurai-eng

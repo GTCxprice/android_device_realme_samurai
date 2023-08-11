@@ -1,14 +1,2 @@
 dontaudit platform_app vendor_default_prop:file r_file_perms;
 dontaudit platform_app vendor_time_daemon:unix_stream_socket connectto;
-# Allow MIUI camera app to read no. of cpus
-allow platform_app cgroup:file r_file_perms;
-
-r_dir_file(platform_app, sysfs_msm_subsys)
-
-get_prop(platform_app, vendor_audio_prop)
-
-allow platform_app hal_camerapostproc_xiaomi_hwservice:hwservice_manager { find };
-
-allow platform_app hal_dms_hwservice:hwservice_manager find;
-binder_call(platform_app, hal_dms_default)
-get_prop(platform_app, audio_config_prop)
