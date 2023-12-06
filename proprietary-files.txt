@@ -550,27 +550,26 @@ vendor/etc/init/dpmQmiMgr.rc|1538743661a5c48c15cd105beaad20f72953885a
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|d9f1aa7f93b928f42499d613d20ccbc60f279097
 vendor/lib64/libdpmqmihal.so|41eb89e66ba065c43a5eb79cd3c72cef0ee167aa
 
-# DRM
-vendor/bin/qseecomd
-vendor/etc/init/qseecomd.rc
-vendor/etc/gpfspath_oem_config.xml
-vendor/lib64/libGPreqcancel.so
-vendor/lib64/libGPreqcancel_svc.so
-vendor/lib64/libQSEEComAPI.so
-vendor/lib64/libSecureUILib.so
-vendor/lib64/libStDrvInt.so
-vendor/lib64/libbase64.so
-vendor/lib64/libcpion.so
-vendor/lib64/libdrmfs.so
-vendor/lib64/libdrmtime.so
-vendor/lib64/libops.so
-vendor/lib64/libqisl.so
-vendor/lib64/librpmb.so
-vendor/lib64/libsecureui.so
-vendor/lib64/libsecureui_svcsock.so
-vendor/lib64/libspl.so
-vendor/lib64/libssd.so
-vendor/lib64/libtzdrmgenprov.so
+# DRM - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+vendor/bin/qseecomd|cec1fd6b50ece998b82e3e9d853d2ee5416ef614
+vendor/etc/init/qseecomd.rc|0ebfb7c5d1d2459be4fdac951a182dc486f3bda7
+vendor/etc/gpfspath_oem_config.xml|7aeade35b0bbe27530f6aca8c1ed5192a7acf59d
+vendor/lib64/libGPreqcancel.so|b9efbc8623981e1249ad0a0f8964b2b655d2b334
+vendor/lib64/libGPreqcancel_svc.so|507859447820246b21175096753a7e3fb13727ab
+vendor/lib64/libQSEEComAPI.so|34b9e5b28e7f141c40fdb392aba9af60aa98d5b5
+vendor/lib64/libSecureUILib.so|e82ac768e72387babc4e940d4082ef41bf102bc3
+vendor/lib64/libStDrvInt.so|c6866bfa63fa8ea4ac7ce8f3ea7daeabba90ae03
+vendor/lib64/libbase64.so|fa0f461914c0adda22c734c755512fdaf897eeaa
+vendor/lib64/libcpion.so|04577591c6e772730453da2c9ba4b94a5edd9b1a
+vendor/lib64/libdrmfs.so|a21f9505fac81e4f0a307d7f7a51efab61d9d0cb
+vendor/lib64/libdrmtime.so|6b51dbccd8d1bfa0c5aa72948f3a6cd079eee426
+vendor/lib64/libops.so|4d1c1e9a8dce82b6d20dd1cdc05121e731e7ab5d
+vendor/lib64/libqisl.so|c79719eebc094c2af9561e8df2c158638b111b70
+vendor/lib64/librpmb.so|9ddc3b22dbde8b60aaf531601ac452e945d95a14
+vendor/lib64/libsecureui.so|0ef059bb709cfbb241313b3433a77a7a35f24d26
+vendor/lib64/libsecureui_svcsock.so|d7588944eeb656ca48713dc4cfabc2c299029514
+vendor/lib64/libssd.so|0a461a98eb314fe6e79bfe08457a88e48c52550a
+vendor/lib64/libtzdrmgenprov.so|30c848cbfd54ca66beeb4b24a674917d4f8b15dd
 
 # DSP - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 vendor/bin/dspservice|a7344fc3d27a49df30858ebc3f73ee5818e752d4
